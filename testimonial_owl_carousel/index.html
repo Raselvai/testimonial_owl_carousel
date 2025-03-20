@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="keywords" content="app, landing, corporate, Creative, Html Template, Template">
+    <meta name="author" content="web-themes">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- title -->
+    <title>Testimonial Owl Carousel</title>
+
+    <!-- favicon -->
+    <!-- <link href="img/favicon.png" type="image/png" rel="icon"> -->
+
+    <!-- all css here -->
+    <link href="css/fontawesome.min.css" rel="stylesheet" type="text/css" />
+    <link href="css/owl.carousel.min.css" rel="stylesheet" type="text/css" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    
+
+    <div class="testimonial_wrapper">
+        <div class="container">
+            <div class="text_center">
+                <p>Testimonials</p>
+                <h1>What Our Customer Say</h1>
+            </div>
+            <div class="owl-carousel testimonial_slider">
+                <div class="testimonial_item">
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, </p>
+                    <figure>
+                        <img src="img/customer-review1.png" alt="">
+                    </figure>
+                    <h2>Alexandra Jorden</h2>
+                    <span>Director</span>
+                </div>
+                <div class="testimonial_item">
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, </p>
+                    <figure>
+                        <img src="img/customer-review2.png" alt="">
+                    </figure>
+                    <h2>Alexandra Joseph</h2>
+                    <span>Co-Founder</span>
+                </div>
+                <div class="testimonial_item">
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, </p>
+                    <figure>
+                        <img src="img/customer-review3.png" alt="">
+                    </figure>
+                    <h2>Anthorny Clark</h2>
+                    <span>Director</span>
+                </div>
+                <div class="testimonial_item">
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, </p>
+                    <figure>
+                        <img src="img/customer-review1.png" alt="">
+                    </figure>
+                    <h2>Alexandra Jorden</h2>
+                    <span>Director</span>
+                </div>
+                <div class="testimonial_item">
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, </p>
+                    <figure>
+                        <img src="img/customer-review2.png" alt="">
+                    </figure>
+                    <h2>Alexandra Joseph</h2>
+                    <span>Co-Founder</span>
+                </div>
+                <div class="testimonial_item">
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, </p>
+                    <figure>
+                        <img src="img/customer-review3.png" alt="">
+                    </figure>
+                    <h2>Anthorny Clark</h2>
+                    <span>Director</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+
+    <script>
+        
+        function testimonial_carouselInit() {
+            $('.owl-carousel.testimonial_slider').owlCarousel({
+                dots: false,
+                loop: false,
+                margin: 30,
+                stagePadding: 0,
+                animateOut: 'fadeOut',
+                nav: true,
+                navText: ['<span><i class="fal fa-long-arrow-left"></i></span>','<span><i class="fal fa-long-arrow-right"></i></span>'],
+                autoWidth:true,
+                autoplay: false,
+                autoplayTimeout: 4000,
+                smartSpeed:4000,
+                autoplayHoverPause: false,
+            });
+        }
+        testimonial_carouselInit();
+
+    </script>
+</body>
+</html>
